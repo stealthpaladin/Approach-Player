@@ -1,7 +1,22 @@
+
+/*
+Made for VAST 3.
+
+TODO: 
+1. Compatibilitiy Layer for VAST 2.0 and more 3.0 features
+2. Event Hooks, Ad Event Handler, Ad Events
+3. jQuery Plugin-ify, clean up vanilla
+4. VAST Wrappers
+5. VPAID and VMAP Support
+6. Page or Ad-Configurable Load And Trigger Flows
+7. Unit Testing and Excessive Error Checks
+
+*/
+
 var VastObject=function()
 {
 	this.Id=0.0,
-	this.AdSystem='Google IMA';
+	this.AdSystem='Your Ad Network';
 	this.AdTitle='Default Advertisement';
         this.Impression={'id':0.0,'link':'http://tracking.approachfoundation.org/track.gif?json=[{"key"="val"},{"key"="val"}]'};
 	this.Creatives=[];

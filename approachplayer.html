@@ -1,0 +1,71 @@
+ <DOCTYPE html>
+  <html>
+  <head>
+  <title>Fullscreen Video</title>
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"> </script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="vast.js"></script>
+  <script type="text/javascript" src="vidplayer.js"></script>
+  <link rel="stylesheet" href="approachplayer/player.css" type="text/css" />
+  
+  <script type="text/javascript">
+    var APPROACHHTML5=true
+    $(document).ready(function(){
+    $('.Player .video')[0].width=100+'%'
+    $('.Player .video')[0].height=100+'%'
+  //  $.ActiveNeedle.call.fullscreen = function(){window.close()}
+    })
+  </script>
+  </head>
+
+  <body>
+  <div id="page"><div id="theContent">
+  <div class="Player"  id="Smart18" >
+  <div class="advertisement"></div>
+	<!--<object class="video "  id="Smart40" >
+	<param name="movie" value="video.swf" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#000000" />
+	<param name="play" value="true" />
+	<param name="loop" value="true" />
+	<param name="wmode" value="opaque" />
+	<param name="scale" value="exactfit" />
+	<param name="menu" value="true" />
+	<param name="devicefont" value="false" />
+	<param name="salign" value="" />
+	<param name="allowScriptAccess" value="always" />
+	</object>-->
+	<video width="640" height="480" class="video">
+		<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+		<source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm">
+	</video>
+        	<ul class="controls"  id="Smart41" >
+	  <li class="play" ><a href="#"></a></li>
+	  <li class="pause" ><a href="#"></a></li>
+	  <li class="stop" ><a href="#"></a></li>
+	  <li class="volume"><img src="approachplayer/transparent.png" class="volumeDragger" /></li>
+	  <li class="fullscreen"><a href="#" ></a></li>
+	  <!--<li class="socialize"><a href="#"></a></li>-->
+	  <li class="track" ></li>
+	  <li class="seek"></li>
+	  <li class="projector up">
+	      <div class="proj_content">
+	      <ul class="projector_content" style="position:relative; height: 100%; width: 100%; float: left;">
+		  <h2 style="color: white;"><br /><br /><hr width="50%" noshade align="center">
+		      Posts, ads and other stuff will go here!
+		      <br /><br />
+		      You can interact with each videos projector through Cue Points to display
+		      any component on the site.
+		      <br /><br />
+		      You can also interact with the user, or vice versa or any component on <i>this</i>
+		      page.</h2>
+		      <hr width="50%" noshade align="center"><br /><br />
+	      </ul><span class="topBar"  >
+	      </div>
+	  </li>
+	</ul>  </div>
+
+  </body>
+  </html>
+

@@ -23,11 +23,8 @@ Things you can do:
 Another great thing about this player - it's incredibly easy to learn, extend and get working!
 Though I do need to fix up the reflection and properly add it to a jQuery plugin or something plus the above issues.
 
-It's reaaaaaaaaaaaaaaaaaally quite close to finished. Programmer Joseph Aames, myself and a few community developers that were just passing through released this under same license a few months back off-site and haven't had time to finish it just yet. 
+It's really quite close to finished. Programmer Joseph Aames, myself and a few community developers that were just passing through released this under same license a few months back off-site and haven't had time to finish it just yet. 
 
-( 1 Designer + 1 Developer ) x 1 Week = Super HTML5 Player Freedom
 
-garet@approachfoundation.org
-https://twitter.com/ApproachGaret
-
+garet@approach.im
 
